@@ -4,7 +4,7 @@
 
 ## 仓库结构
 - `data`：用于存储原始和处理后的数据。
-- `notebooks`：用于分析和可视化的 Jupyter 笔记本。
+- `notebooks`：用于分析和可视化的 Jupyter 笔记本.
 - `scripts`：用于获取和处理数据的 Python 脚本。
 - `src`：可重用的辅助模块。
 
@@ -18,10 +18,10 @@
 ```bash
 git clone https://github.com/YOUR_USERNAME/phbs-qps-2024.git
 cd phbs-qps-2024
-
+```
 ### 2. 设置 Python 环境
 在 macOS/Linux 上：
-bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```

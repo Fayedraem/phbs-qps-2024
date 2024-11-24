@@ -18,3 +18,35 @@
 ```bash
 git clone https://github.com/YOUR_USERNAME/phbs-qps-2024.git
 cd phbs-qps-2024
+
+### 2. 设置 Python 环境
+在 macOS/Linux 上：
+bash
+python3 -m venv venv
+source venv/bin/activate
+```
+在 Windows 上：
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+### 3. 安装依赖
+运行以下命令安装所需的 Python 库：
+```bash
+pip install pandas pandas-datareader
+```
+### 4.进入scripts
+进入 scripts 文件夹并运行脚本：
+python scripts/CPI-America.ipynb
+
+注意事项
+脚本从美国联邦储备经济数据库（FRED）获取数据，请确保网络连接正常。
+数据来源为消费者价格指数 (CPI)。
+
+### 5.将文件提交到 GitHub
+将所有更改提交并推送到 GitHub：
+```bash
+git add .
+git commit -m "添加 CPI 获取脚本和 README 文件"
+git push origin main
+```
